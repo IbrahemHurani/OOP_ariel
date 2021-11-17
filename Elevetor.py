@@ -1,4 +1,3 @@
-import json
 
 class Elevetor:
     def __init__(self,id: int = 0, speed: float = 0, minFloor:int = 0, maxFloor: int = 0, closeTime: float = 0,openTime: float = 0, startTime: float = 0,stopTime: float = 0)->None:
@@ -12,7 +11,12 @@ class Elevetor:
         self.stopTime = stopTime
         self.curr=0
 
-
+    def Get_ALLtime(self)->float:
+        return self.closeTime+self.openTime+self.startTime+self.closeTime
+    def Get_speed(self)->float:
+        return self.speed
+    def get_curr(self)->int:
+        return self.curr
     def __str__(self)->str:
         return f"id:{self.id},speed:{self.speed},minFloor:{self.minFloor},maxFloor:{self.maxFloor},closeTime:{self.closeTime},openTime:{self.openTime}" \
                f",startTime:{self.startTime},stopTime:{self.stopTime}"

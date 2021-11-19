@@ -1,5 +1,5 @@
 ## Elevator Algorithm Offilne: 
-[elevator](https://en.wikipedia.org/wiki/Elevator_algorithm)
+an introduction-->[elevator](https://en.wikipedia.org/wiki/Elevator_algorithm)
 ## Algorithm offline:
  an offline algorithm is given the whole problem data from the beginning and is required to output an answer which solves the problem at hand.
 ## Algorthim online:

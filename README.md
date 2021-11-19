@@ -50,6 +50,7 @@ def Allocate():
         Time = c.time
         c.ChangeAllocate(first, building)
 ``` 
+# Diagram:
 
 
 

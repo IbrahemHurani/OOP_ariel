@@ -18,20 +18,8 @@ my algorithm have four class:
 ```        
 2)class Elevator:this class to input the information about every elevator in his variables and have function calculate the time to know which elevator coming faster and function calculate How long does the elevator take to get there
 The variables:
-```python
-    def __init__(self, data):
-        self.id = int(data["_id"])
-        self.speed = float(data["_speed"])
-        self.minFloor = int(data["_minFloor"])
-        self.maxFloor = int(data["_maxFloor"])
-        self.closeTime = float(data["_closeTime"])
-        self.openTime = float(data["_openTime"])
-        self.startTime = float(data["_startTime"])
-        self.stopTime = float(data["_stopTime"])
-        self.position=0
-        self.CallisHave=[]
-```
-this the important functions:
+
+this the important function in the class Elevator:
 
 function one:
 ```python
@@ -43,10 +31,11 @@ function one:
             Time = self.startTime + self.stopTime + self.openTime + self.closeTime
             return (abs(dest - pos)) / self.speed + Time
 ```
-function two:
-```python
-   
-```
+3)class Calls:this class for reader form file.csv and input the information in variables.the information about all the calls (requests) for elevator
+
+4)class Ex1:this class is the main in this project because this class check what the best elevator need to come for every call and in this class do the print.
+
+
 
 
 

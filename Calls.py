@@ -7,12 +7,11 @@ class Calls:
         self.dest = int(data[3])
         self.state = int(data[4])
         self.AllocateToChange = int(data[5])
-        self.finishedTime=-1
+        self.Done=0
 
-
-    def ChangeAloocate(self, elevator, building):
+    #this function for know the call which elevator is coming
+    def ChangeAllocate(self, elevator, building):
         for elev in building.elevators:
             if elevator.id == elev.id:
                 break
         self.AllocateToChange = elevator.id
-

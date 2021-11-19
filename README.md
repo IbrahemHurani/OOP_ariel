@@ -1,4 +1,4 @@
-## Elevator Algorithm Offilne: 
+## Elevator Algorithm Offilne: [ELevator](https://en.wikipedia.org/wiki/Elevator_algorithm)
 ## Algorithm offline:
  an offline algorithm is given the whole problem data from the beginning and is required to output an answer which solves the problem at hand.
 ## Algorthim online:
@@ -7,7 +7,7 @@ An online algorithm is one that can process its input piece-by-piece in a serial
 is working with algorithm offline that is the algorithm have all the data form the beginnig.
 my algorithm have four class:
 
--class Building:this class for read from the building.json and input to Variables,the building.json have all the information about the elevator in the building and the max floor in the bulid and the min floor.
+1)class Building:this class for read from the building.json and input to Variables,the building.json have all the information about the elevator in the building and the max floor in the bulid and the min floor.
 ```python
  def __init__(self,FileName):
     with open(FileName, "r") as fp:
@@ -58,7 +58,5 @@ def Allocate():
 https://www.geeksforgeeks.org/online-algorithm/
 
 https://www.youtube.com/watch?v=FptCbX7fRHw
-
-https://en.wikipedia.org/wiki/Elevator_algorithm
 
 https://www.youtube.com/watch?v=TDww3MjL-0A

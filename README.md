@@ -53,7 +53,7 @@ def Allocate():
         Time = c.time
         c.ChangeAllocate(first, building)
 ``` 
-#ResultTest:
+# ResultTest:
 |file.json|file.csv|uncomoleted|average waiting time per call|
 |---------|--------|-----------|-----------------------------|
 |B1.json  |Call_a  |     0     |           112.92            |

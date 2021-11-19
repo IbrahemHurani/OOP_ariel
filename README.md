@@ -35,6 +35,22 @@ function one:
 
 4)class Ex1:this class is the main in this project because this class check what the best elevator need to come for every call and in this class do the print.
 
+the main funtion:
+```python
+def Allocate():
+    Time = 0
+    for c in calls:
+        first = building.elevators[0]
+        for i in building.elevators:
+            i.removed()
+            if first.howMushTime(c) > i.howMushTime(c):
+                first = i
+        first.CallisHave.append(c)
+        c.Done = Time + first.howMushTime(c)
+        Time = c.time
+        c.ChangeAllocate(first, building)
+``` 
+
 
 
 # Source:

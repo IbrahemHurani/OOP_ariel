@@ -54,7 +54,7 @@ def Allocate():
         c.ChangeAllocate(first, building)
 ``` 
 ## Diagram:
-
+![WhatsApp Image 2021-11-19 at 17 04 44](https://user-images.githubusercontent.com/86603326/142645539-03aac0f7-98a2-43f1-b808-0b4f4b36ae9f.jpeg)
 
 
 ## Source:

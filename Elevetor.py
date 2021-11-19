@@ -14,15 +14,15 @@ class Elevator:
         self.CallisHave=[]
     #this function to know how mush Time take the elevtor for coming
     def howMushTime(self, call):
-        currPos = self.position
+        pos = self.position
         time = 0
         for c in self.CallisHave:
-            time += self.Culc_Time(currPos, c.src)
-            currPos = c.src
+            time += self.Culc_Time(pos, c.src)
+            pos = c.src
         if not self.CallisHave.__len__() == 0:
-            time += self.Culc_Time(currPos, self.CallisHave[-1].dest)
-            currPos = self.CallisHave[-1].dest
-        time += self.Culc_Time(currPos, call.src)
+            time += self.Culc_Time(pos, self.CallisHave[-1].dest)
+            pos = self.CallisHave[-1].dest
+        time += self.Culc_Time(pos, call.src)
         return time
 
     #this function to calculate the time

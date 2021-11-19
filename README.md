@@ -45,17 +45,7 @@ function one:
 ```
 function two:
 ```python
-    def howMushTime(self, call):
-        currPos = self.position
-        time = 0
-        for c in self.CallisHave:
-            time += self.Culc_Time(currPos, c.src)
-            currPos = c.src
-        if not self.CallisHave.__len__() == 0:
-            time += self.Culc_Time(currPos, self.CallisHave[-1].dest)
-            currPos = self.CallisHave[-1].dest
-        time += self.Culc_Time(currPos, call.src)
-        return time
+   
 ```
 
 

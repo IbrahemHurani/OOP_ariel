@@ -7,7 +7,7 @@ An online algorithm is one that can process its input piece-by-piece in a serial
 is working with algorithm offline that is the algorithm have all the data form the beginnig.
 my algorithm have four class:
 
-1)class Building:this class for read from the file.json and input to Variables,the file.json have all the information about the elevator in the building and the max floor in the bulid and the min floor.
+1)class Building:this class for read from the building.json and input to Variables,the building.json have all the information about the elevator in the building and the max floor in the bulid and the min floor.
 ```python
  def __init__(self,FileName):
     with open(FileName, "r") as fp:
@@ -31,7 +31,7 @@ function one:
             Time = self.startTime + self.stopTime + self.openTime + self.closeTime
             return (abs(dest - pos)) / self.speed + Time
 ```
-3)class Calls:this class for reader form file.csv and input the information in variables.the information about all the calls (requests) for elevator
+3)class Calls:this class for reader form calls.csv and input the information in variables.the information about all the calls (requests) for elevator
 
 4)class Ex1:this class is the main in this project because this class check what the best elevator need to come for every call and in this class do the print.
 

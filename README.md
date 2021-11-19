@@ -1,6 +1,6 @@
 ## Elevator Algorithm Offilne: 
-an introduction-->[elevator](https://en.wikipedia.org/wiki/Elevator_algorithm)
 ![102921667-bf2bdb80-445a-11eb-8eb2-2e6bbdf9beff](https://user-images.githubusercontent.com/86603326/142636372-d7367604-5a9c-4f01-88bc-24d4bf77de60.png)
+                     an introduction-->[elevator](https://en.wikipedia.org/wiki/Elevator_algorithm)
 ## Algorithm offline:
  an offline algorithm is given the whole problem data from the beginning and is required to output an answer which solves the problem at hand.
 ## Algorthim online:

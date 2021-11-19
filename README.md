@@ -40,7 +40,8 @@ function one:
 # Source:
 https://www.geeksforgeeks.org/online-algorithm/
 
-https://www.youtube.com/watch?v=FptCbX7fRHw 
+https://www.youtube.com/watch?v=FptCbX7fRHw
+
 https://en.wikipedia.org/wiki/Elevator_algorithm
 
 

@@ -6,6 +6,7 @@ An online algorithm is one that can process its input piece-by-piece in a serial
 # My algorithm:
 is working with algorithm offline that is the algorithm have all the data form the beginnig.
 my algorithm have four class:
+
 1)class Building:this class for read from the file.json and input to Variables,the file.json have all the information about the elevator in the building and the max floor in the bulid and the min floor.
 ```python
  def __init__(self,FileName):

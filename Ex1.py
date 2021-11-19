@@ -12,8 +12,8 @@ def get():
         }
     else:
         InFile = {
-            "building": "C:\\Users\\HP\\Desktop\\Ex1_input\\Ex1_Buildings\\B5.json",
-            "calls": "C:\\Users\\HP\\Desktop\\Ex1_input\\Ex1_Calls\\Calls_a.csv",
+            "building": "Ex1_input\\Ex1_Buildings\\B5.json",
+            "calls": "Ex1_input\\Ex1_Calls\\Calls_a.csv",
             "out": "output.csv"
         }
     return InFile
@@ -54,7 +54,7 @@ def Allocate():
 
 #tester for check
 def runTester(building, out):
-    subprocess.Popen(["powershell.exe", "java -jar C:\\Users\\HP\\Desktop\\Ex1_input\\Ex1_checker_V1.2_obf.jar 316203405,212187256 "+ building + "  "+ out + "  " + "Test.log"])
+    subprocess.Popen(["powershell.exe", "java -jar Ex1_input\\Ex1_checker_V1.2_obf.jar 316203405,212187256 "+ building + "  "+ out + "  " + "Test.log"])
 if __name__ == "__main__":
     file = get()
     building = Building(file["building"])
